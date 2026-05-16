@@ -1,0 +1,62 @@
+Para todas las actividades que utilizaron inteligencia artificial se utilizo Gemini entre las opciones de "razonamiento" y "Pro 3.1"
+
+Actividad n°1
+
+Para la primera activdad le proporcione a la IA el material pdf dado en clases sobre zilly 
+
+prompt: "Te voy a proporcionar a continuacion la informacion de trabajo (los pdf) con lo relacion sobre zilly y por medio de la cual quiero que respondas la actividad n°1 a su vez genera 
+los codigos necesarios para probarlo y explicame como funciona"
+
+A continuación, agrego los codigos proporcionados por la IA para probar que la actividad n°1 funciona
+
+-Para probar De Morgan 1-
+
+"de_morgan1(1)(1)"  -> Miticalc debería responder 0
+
+"de_morgan1(1)(0)"  -> Miticalc debería responder 1
+
+"de_morgan1(0)(1)"  -> Miticalc debería responder 1
+
+"de_morgan1(0)(0)"  -> Miticalc debería responder 1
+
+"de_morgan2(1)(1)"  -> Miticalc debería responder 0
+
+-Para probar De Morgan 2-
+
+"de_morgan2(1)(0)"  -> Miticalc debería responder 0
+
+"de_morgan2(0)(1)"  -> Miticalc debería responder 0
+
+"de_morgan2(0)(1)"  -> Miticalc debería responder 0
+
+"de_morgan2(0)(0)"  -> Miticalc debería responder 1
+
+Una vez que introduzcas esas líneas y la máquina virtual las acepte (te dé el ACK), puedes probarlas evaluando combinaciones de 1 (verdadero) y 0 (falso).
+
+NOTA: probar los comandos que estan entre ("") sin las comillas.
+
+
+Actividad n°2
+
+Para la actividad n°2 si bien no fue realmente necesario que la IA lo hiciera, si la utilice para que esta verificara que el codigo propuesto estuviera correcto. Dando como resultado un codigo
+succ(z) que computa z+1.
+
+Z => Z succ := fn(Z z) -> sub(sub(1)(0))(z);
+succ(n°)
+
+NOTA: para probar el comando dentro de miticalc se debe escribir el "succ(n°)" y donde esta el "n°" colocar el numero deseado para probar que funciona. Aunque para efectos practivos se coloco previamente "succ(10)"
+para su ejecución, pero este puede ser modificado por otro numero positivo perfectamente.
+
+
+Actividad n°3, 4 y 5.
+
+Para la actividad n°3, 4 y 5 se le solicito a la IA que lo hiciera todo en conjuto, a su vez se le proporciono las directrices a seguir por parte del profesor y el codigo sobre el cual debia trabajar. 
+Adicionalmente, no tuvo demasiados inconvenientes a la hora de trabajar, se corroboro que compilara y se le realizaron multiples preguntas para asegurarse de que todo estuviera en orden. Si bien en ocaciones 
+hacia cosas particulares nada estuvo fuera de lo común.
+
+NOTA: Como dato adicional se le suministro a la IA el material de trabajo "Intro.0" e "Intro.1" proporcionada por el profesor por medio del google drive.
+NOTA: Fue probarlo con "replit" y compilado con "g++"
+
+prompt: "Te voy a proporcionar, los lineamientos que debes seguir a la hora de realizar la actividad, a su vez te voy a proporcionar el codigo sobre el cual debes trabajar, asegurate de que pueda compilar y verificar 
+que tenga sentido con el material "intro.0" e "Intro.1" que el profesor suministro. Sumando a lo dicho anteriormente explicame que estas haciendo para entender más sobre el tema. Procura no utilizar elementos complejos o
+engorrosos en el codigo de trabajo.

@@ -1,0 +1,11 @@
+Z => Z not := fn(Z P) -> if(lt(1)(P), 1, 0);
+Z => Z => Z and := fn(Z P) -> fn(Z Q) -> if(lt(1)(P), 0, if(lt(1)(Q), 0, 1));
+Z => Z => Z or := fn(Z P) -> fn(Z Q) -> if(lt(1)(P), if(lt(1)(Q), 0, 1), 1);
+
+Z => Z => Z de_morgan1 := fn(Z P) -> fn(Z Q) -> or(not(P))(not(Q));
+Z => Z => Z de_morgan2 := fn(Z P) -> fn(Z Q) -> and(not(P))(not(Q));
+
+
+Z => Z succ := fn(Z z) -> sub(sub(1)(0))(z);
+succ(10)
+
